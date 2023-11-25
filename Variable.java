@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
+public class Variable{
+    public static void main(String args[]) {
         byte zero = 0;
         short a = 3;
         int b = 1;
