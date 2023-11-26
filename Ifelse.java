@@ -1,6 +1,6 @@
 public class Ifelse {
     public static void main(String[] args) {
-        String a = new String("Wow");
+        String a = "Wow";
         String b = a;
         String c = b+"!";
         String d = c;
