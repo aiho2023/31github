@@ -10,7 +10,7 @@ public class Ifelse {
         boolean b3 = !c.equals(a);
 
         if (b1 && b2 && b3) {
-            System.out.println("Success!");
+            System.out.println("Success! You are on the right track!");
         }
     }
 }
