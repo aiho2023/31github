@@ -16,7 +16,7 @@ public class Loops {
                 break;
             }
 
-            if (el % 2 == 0) {
+            if (el % 2 != 0) {
                 System.out.println(el);
             }
 
