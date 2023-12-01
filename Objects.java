@@ -6,4 +6,12 @@ public class Objects{
         System.out.println(Aika.toString()); // Person Aika
     }
 }
-
+class Person {
+     
+    private String name;
+     
+    public Person(String name){
+     
+        this.name=name;
+    }
+}
