@@ -15,3 +15,8 @@ class Person {
         this.name=name;
     }
 }
+public int hashCode(){
+ 
+        return 10 * name.hashCode() + 20456;
+    }
+}
