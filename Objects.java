@@ -2,7 +2,7 @@ public class Objects{
       
     public static void main(String[] args) {
              
-        Person Aika = new Person("Aika");
+        Beshbarmaq Aika = new Beshbarmaq("Aika");
         System.out.println(Aika.getClass()); // 
     }
 }
@@ -10,7 +10,7 @@ class Beshbarmaq {
      
     private String name;
     
-    public Person(String name){
+    public Beshbarmaq(String name){
      
         this.name=name;
     }
