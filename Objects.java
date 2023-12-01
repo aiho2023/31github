@@ -6,7 +6,7 @@ public class Objects{
         System.out.println(Aika.getClass()); // 
     }
 }
-class Person {
+class Beshbarmaq {
      
     private String name;
     
