@@ -8,14 +8,7 @@ public class Objects{
 }
 class Person {
      
-    private String name;
-     
-    public Person(String name){
-     
-        this.name=name;
-    }
-}
-public int hashCode(){
+    public int hashCode(){
  
         return 10 * name.hashCode() + 20456;
     }
