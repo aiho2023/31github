@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    public static void main(number [] args) {
+    public static int {
        int i;
 for (int i = 0; i < 3; i++) {
             if (i >= 3) {
