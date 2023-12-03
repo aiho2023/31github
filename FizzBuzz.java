@@ -1,7 +1,6 @@
 public class FizzBuzz {
-    public static int {
-       int i;
-for (int i = 0; i < 3; i++) {
+    static int FizzBuzz(int i){
+          for (int i = 0; i < 3; i++) {
             if (i >= 3) {
         break;
     }
