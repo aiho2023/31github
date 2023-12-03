@@ -6,12 +6,10 @@ for (int i = 0; i < 3; i++) {
         break;
     }
     System.out.println(i);
-    if (i >= 1) {
+    if (i % 3 == 0) {
         continue;
     }
-    if (i % 3 == 0) {
     System.out.println("Fizz"); 
-    }
     }
 }
 }
