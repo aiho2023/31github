@@ -1,4 +1,4 @@
-public class Solution {
+public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
        int i;
 for (i = 0; i < 5; i++) {
