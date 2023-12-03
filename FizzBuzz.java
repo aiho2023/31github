@@ -9,7 +9,7 @@ for (int i = 0; i < 3; i++) {
     if (i >= 1) {
         continue;
     }
-    if (el % 3 == 0) {
+    if (i % 3 == 0) {
     System.out.println("Fizz"); 
     }
     }
