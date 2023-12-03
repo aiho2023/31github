@@ -1,15 +1,18 @@
 public class FizzBuzz {
     public static void main(String [] args) {
        int i;
-for (i = 0; i < 5; i++) {
-    if (i >= 3) {
+for (int i = 0; i < numbers.length; i++) {
+            int el = numbers[i];
+    if (el >= 3) {
         break;
     }
-    System.out.println("Yuhu");
+    System.out.println(el);
     if (i >= 1) {
         continue;
     }
-    System.out.println("Tata"); 
+    if (el % 3 == 0) {
+    System.out.println("Fizz"); 
     }
     }
+}
 }
