@@ -8,7 +8,7 @@ public class FizzBuzz1 {
             if (el == 4) {
                 break;
             }
- System.out.println(i);
+ System.out.println(el);
     if (el >= 1) {
         continue;
     }    
