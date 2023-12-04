@@ -12,9 +12,9 @@ public class FizzBuzz1 {
             if (el>=1) {
             continue;    
             }
-            if (el%3==0)
+            if (el%3==0) {
             System.out.println("Fizz");
            }
     }
 }
-    
+}    
