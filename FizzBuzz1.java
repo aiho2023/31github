@@ -5,7 +5,7 @@ public class FizzBuzz1 {
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
 
-           if (el == 3) {
+           if (el == 4) {
                 break;
             }
             System.out.println(el);     
