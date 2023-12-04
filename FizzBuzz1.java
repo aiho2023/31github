@@ -11,10 +11,10 @@ public class FizzBuzz1 {
  System.out.println(i);
     if (el >= 1) {
         continue;
-    }
-            
+    }    
+     System.out.println("Fizz");
             if (el % 3 == 0) {
-                System.out.println("Fizz");
+            continue;    
             }
 
         }
