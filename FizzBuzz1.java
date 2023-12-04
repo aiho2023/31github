@@ -8,12 +8,13 @@ public class FizzBuzz1 {
             if (el == 4) {
                 break;
             }
- System.out.println(el);
+ System.out.println(i);
     if (el >= 1) {
         continue;
     }    
-     System.out.println("Fizz");
-            if (el % 3 == 0) 
+      if (el % 3 == 0) {
+            System.out.println("Fizz");
+      }
 
         }
     }
