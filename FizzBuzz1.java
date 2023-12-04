@@ -13,7 +13,7 @@ public class FizzBuzz1 {
             continue;    
             }
            if (el % 3 == 0) {
-            System.out.println('Fizz');
+            System.out.println("Fizz");
            }
     }
 }
