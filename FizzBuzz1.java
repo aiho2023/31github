@@ -4,17 +4,17 @@ public class FizzBuzz1 {
         
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
- if (el%3!=0) {
-            System.out.println("Fizz");
-           }
-           if (el == 4) {
+            
+            if (el == 4) {
                 break;
             }
-            System.out.println(el);     
-            if (el>=1) {
+            System.out.println(el); 
+            {
             continue;    
             }
-           
+           if (el%3!=0) {
+            System.out.println("Fizz");
+           }
     }
 }
 }    
