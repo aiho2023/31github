@@ -7,9 +7,9 @@ public class FizzBuzz1 {
           do { System.out.println(el); }
            
           while
-              {if (el%3==0) {
+              if (el%3==0) {
            System.out.println("Fizz");
-           }}
+           }
     }
 }
 }    
