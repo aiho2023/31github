@@ -5,18 +5,14 @@ public class FizzBuzz1 {
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
 
-            if (el == 4) {
+           System.out.println("Fizz");
+            if (el % 3 == 0) {
                 break;
             }
- System.out.println(el);
-    if (el >= 1) {
-        continue;
-    }    
-      if (el % 3 == 0) {
-            System.out.println("Fizz");
-      }
-
-        }
+ if (el>=1) {
+                System.out.println(el);
+            }
+           }
     }
 }
     
