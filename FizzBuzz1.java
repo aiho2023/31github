@@ -8,8 +8,11 @@ public class FizzBuzz1 {
             if (el == 4) {
                 break;
             }
-
-            // using the division remainder operator %
+ System.out.println(i);
+    if (el >= 1) {
+        continue;
+    }
+            
             if (el % 3 == 0) {
                 System.out.println("Fizz");
             }
