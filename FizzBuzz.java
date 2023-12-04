@@ -4,12 +4,12 @@ public class FizzBuzz {
             if (i >= 3) {
         break;
     }
-           if (i >=1) {
-    System.out.println(i);
-           }
-    if (i % 3 == 0) {
+           if (i % 3 == 0) {
     System.out.println("Fizz"); 
     }
+            if (i >=1) {
+    System.out.println(i);
+           }
 }
     }
 }
