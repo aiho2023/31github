@@ -1,6 +1,6 @@
 public class FizzBuzz1 {
     public static void main(String[] args) {
-        int[] numbers = {1,2,3};
+        int[] numbers = {1,2,3,4,5,6};
         
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
@@ -9,8 +9,9 @@ public class FizzBuzz1 {
             if (el % 3 == 0) {
                 break;
             }
- if (el>=1) {
-                System.out.println(el);
+            System.out.println(el);     
+            if (el>=1) {
+            continue;    
             }
            }
     }
