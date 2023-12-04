@@ -6,9 +6,9 @@ public class FizzBuzz1 {
             int el = numbers[i];
           do { System.out.println(el); 
              } while
-               (el%3==0) {
+               (el%3==0); 
            System.out.println("Fizz");
-          }
+          
     }
 }
 }    
