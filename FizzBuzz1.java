@@ -6,7 +6,7 @@ public class FizzBuzz1 {
             int el = numbers[i];
             System.out.println(el); 
            
-           if (el % 3 != 0) {
+           if (el%3==0) {
            System.out.println("Fizz");
            }
     }
