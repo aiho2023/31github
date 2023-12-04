@@ -11,7 +11,7 @@ public class FizzBuzz1 {
 
             // using the division remainder operator %
             if (el % 3 == 0) {
-                System.out.println(Fizz);
+                System.out.println("Fizz");
             }
 
         }
