@@ -4,15 +4,15 @@ public class FizzBuzz2 {
         
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
-          if (el%3==0){ 
-            System.out.println("Fizz"); 
-         }
-           else if (el%5==0){ 
-            System.out.println("Buzz"); 
-           }
-           else if (el%3==0 && el%5==0){ 
+          if (el%3==0 && el%5==0){ 
            System.out.println("FizzBuzz");
              } 
+            else if (el%5==0){ 
+            System.out.println("Buzz"); 
+           }
+           else  if (el%3==0){ 
+            System.out.println("Fizz"); 
+         }
             
           else if (el>=1){ 
             System.out.println(el); 
