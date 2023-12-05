@@ -4,10 +4,10 @@ public class FizzBuzz2 {
         
         for (int i = 0; i < numbers.length; i++) {
             int el = numbers[i];
-          if (el>=1); { 
+          if (el>=1){ 
             System.out.println(el); 
              } 
-         else (el%3==0);{ 
+         else if (el%3==0){ 
            System.out.println("Fizz");
          }
     }
