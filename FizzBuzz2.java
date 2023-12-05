@@ -10,7 +10,7 @@ public class FizzBuzz2 {
            else if (el%5==0){ 
             System.out.println("Buzz"); 
            }
-           else if (el%3==0||el%5==0){ 
+           else if (el%3==0 && el%5==0){ 
            System.out.println("FizzBuzz");
              } 
             
