@@ -1,4 +1,4 @@
-public class MaximumSubarray {
+public class main {
 
     private static void subArray(int[] array, int startIndex, int endIndex){
         int[] result = ArrayUtils.subarray(array, startIndex, endIndex);
@@ -8,7 +8,7 @@ public class MaximumSubarray {
         System.out.println();
     }
 
-    public static void MaximumSubarray(String[] args) {
+    public static void main(String[] args) {
         int[] array = {1,2,3,4,5};
         System.out.print("Original Array is - [ ");
         for(int i:array) System.out.print( i + " ");
