@@ -3,7 +3,7 @@ public class MaximumSubarray {
         int[] numbers = {1, 2, 3};
         String[] partialNumbers = Arrays.copyOfRange(numbers, 0, 1); 
 String[] partialNumbers = ArrayUtils.subarray(numbers, 0, 1);
-List<String> NumbersList = Arrays.asList( Arrays.copyOfRange(numbers, 0, numbers.length) );
+List<String> NumbersList = Arrays.asList( Arrays.copyOfRange(numbers, 0, 1) );
         
         System.out.println(NumbersList);
     }
