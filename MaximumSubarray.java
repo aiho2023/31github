@@ -1,6 +1,6 @@
 public class MaximumSubarray {
     public static void main(String[] args) {
-       String[] arr = names {"Alex", "Brian", "Charles", "David"};;
+       String[] arr = names {"Alex", "Brian", "Charles", "David"};
        
 //Subarray from index '0' (inclusive) to index '2' (exclusive)
 String[] partialNames = Arrays.copyOfRange(names, 0, 2);  // [Alex, Brian]
