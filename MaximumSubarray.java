@@ -1,17 +1,43 @@
 public class MaximumSubarray {
-    public static void main(String[] args) {
-       String[] arr = names {"Alex", "Brian", "Charles", "David"};
-       
-//Subarray from index '0' (inclusive) to index '2' (exclusive)
-String[] partialNames = Arrays.copyOfRange(names, 0, 2);  // [Alex, Brian]
-
-// Using Common Lang
-String[] partialNames = ArrayUtils.subarray(names, 0, 2);    // [Alex, Brian]
+    /* Returns true if the there is a
+subarray of arr[] with a sum equal to
+       'sum' otherwise returns false.
+Also, prints the result */
+    void subArraySum(int arr[], int n, int sum)
+    {
+        // Pick a starting point
+        for (int i = 0; i < n; i++) {
+            int currentSum = arr[i];
  
-//Subarray to List
-List<String> namesList = Arrays.asList( Arrays.copyOfRange(names, 2, names.length) );
-        
-        System.out.println(NamesList);
+            if (currentSum == sum) {
+                System.out.println("Sum found at indexe "
+                                   + i);
+                return;
+            }
+            else {
+                // Try all subarrays starting with 'i'
+                for (int j = i + 1; j < n; j++) {
+                    currentSum += arr[j];
+ 
+                    if (currentSum == sum) {
+                        System.out.println(
+                            "Sum found between indexes " + i
+                            + " and " + j);
+                        return;
+                    }
+                }
+            }
+        }
+        System.out.println("No subarray found");
+        return;
+    }
+ 
+    public static void main(String[] args)
+    {
+        SubarraySum arraysum = new SubarraySum();
+        int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
+        int n = arr.length;
+        int sum = 23;
+        arraysum.subArraySum(arr, n, sum);
     }
 }
-
