@@ -1,9 +1,5 @@
 public class MaximumSubarray {
-    /* Returns true if the there is a
-subarray of arr[] with a sum equal to
-       'sum' otherwise returns false.
-Also, prints the result */
-    void subArraySum(int arr[], int n, int sum)
+    void MaximumSubarray(int arr[], int n, int sum)
     {
         // Pick a starting point
         for (int i = 0; i < n; i++) {
@@ -15,7 +11,6 @@ Also, prints the result */
                 return;
             }
             else {
-                // Try all subarrays starting with 'i'
                 for (int j = i + 1; j < n; j++) {
                     currentSum += arr[j];
  
@@ -34,10 +29,10 @@ Also, prints the result */
  
     public static void main(String[] args)
     {
-        SubarraySum arraysum = new SubarraySum();
+        MaximumSubarray arraysum = new MaximumSubarray();
         int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
         int n = arr.length;
         int sum = 23;
-        arraysum.subArraySum(arr, n, sum);
+        arraysum.MaximumSubarray(arr, n, sum);
     }
 }
