@@ -30,9 +30,9 @@ public class MaximumSubarray {
     public static void main(String[] args)
     {
         MaximumSubarray arraysum = new MaximumSubarray();
-        int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
+        int arr[] = { -2,1,-3,4,-1,2,1,-5,4 };
         int n = arr.length;
-        int sum = 23;
+        int sum = 6;
         arraysum.MaximumSubarray(arr, n, sum);
     }
 }
