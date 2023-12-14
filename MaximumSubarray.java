@@ -32,7 +32,7 @@ public class MaximumSubarray {
         MaximumSubarray arraysum = new MaximumSubarray();
         int arr[] = { -2,1,-3,4,-1,2,1,-5,4 };
         int n = arr.length;
-        int sum = 6;
+        int sum = 36;
         arraysum.MaximumSubarray(arr, n, sum);
     }
 }
