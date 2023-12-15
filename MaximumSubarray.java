@@ -5,7 +5,7 @@ public class MaximumSubarray {
         for (int i = 0; i < n; i++) {
             int currentSum = arr[i];
  
-            if (currentSum == sum) {
+            if (currentSum >= sum) {
                 System.out.println("Sum found at indexe "
                                    + i);
                 return;
