@@ -1,6 +1,6 @@
 public class MaximumSubarray {
     void MaximumSubarray(int arr[], int n, int sum)
-    {
+    {import java.util.Arrays;
         // Pick a starting point
         for (int i = 0; i < n; i++) {
             int currentSum = arr[i];
@@ -13,12 +13,11 @@ public class MaximumSubarray {
             else {
                 for (int j = i + 1; j < n; j++) {
                     currentSum += arr[j];
- 
-                    if (currentSum == sum) {
+                     if (currentSum == sum) {
                         System.out.println(
                             "Sum found between indexes " + i
                             + " and " + j);
-                        System.out.println(arraysum.toString(array));
+                        System.out.println(Arrays.toString(currentSum));
                         return;
                     }
                 }
