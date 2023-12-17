@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class MaximumSubarray {
     void MaximumSubarray(int arr[], int n, int sum)
     {
@@ -29,7 +30,6 @@ public class MaximumSubarray {
  
     public static void main(String[] args)
     {
-        import java.util.Arrays;
         MaximumSubarray arraysum = new MaximumSubarray();
         int arr[] = { -2,1,-3,4,-1,2,1,-5,4 };
         int n = arr.length;
