@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class MaximumSubarray {
     void MaximumSubarray(int arr[], int n, int sum)
     {
@@ -11,7 +10,7 @@ public class MaximumSubarray {
                                    + i);
                 return;
             }
-            else {
+            else {import java.util.Arrays;
                 for (int j = i + 1; j < n; j++) {
                     currentSum += arr[j];
                      if (currentSum == sum) {
