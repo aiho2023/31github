@@ -1,6 +1,7 @@
 public class MaximumSubarray {
     void MaximumSubarray(int arr[], int n, int sum)
-    {import java.util.Arrays;
+    import java.util.Arrays;
+    {
         // Pick a starting point
         for (int i = 0; i < n; i++) {
             int currentSum = arr[i];
