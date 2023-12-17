@@ -10,7 +10,7 @@ public class MaximumSubarray {
                                    + i);
                 return;
             }
-            else {import java.util.Arrays;
+            else {
                 for (int j = i + 1; j < n; j++) {
                     currentSum += arr[j];
                      if (currentSum == sum) {
@@ -34,5 +34,6 @@ public class MaximumSubarray {
         int n = arr.length;
         int sum = 0;
         arraysum.MaximumSubarray(arr, n, sum);
+        import java.util.Arrays;
     }
 }
