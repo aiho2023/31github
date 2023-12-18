@@ -18,8 +18,7 @@ public class MaximumSubarray {
                         System.out.println(
                             "Sum found between indexes " + i
                             + " and " + j);
-                           import java.util.Arrays;
-                        System.out.println(Arrays.toString(arraysum.MaximumSubarray));
+                          System.out.println(Arrays.toString(arraysum.MaximumSubarray));
                         return;
                     }
                 }
