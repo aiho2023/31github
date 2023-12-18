@@ -1,4 +1,5 @@
 public class MaximumSubarray {
+     import java.util.Arrays;
     void MaximumSubarray(int arr[], int n, int sum)
     {
         // Pick a starting point
@@ -26,9 +27,8 @@ public class MaximumSubarray {
         System.out.println("No subarray found");
         return;
     }
-    public static void main(String[] args);
-     import java.util.Arrays
-    {   
+    public static void main(String[] args)
+       {   
         MaximumSubarray arraysum = new MaximumSubarray();
         int arr[] = { -2,1,-3,4,-1,2,1,-5,4 };
         int n = arr.length;
