@@ -1,5 +1,5 @@
 public class MaximumSubarray {
-     import java.util.Arrays;
+     
     void MaximumSubarray(int arr[], int n, int sum)
     {
         // Pick a starting point
@@ -34,6 +34,6 @@ public class MaximumSubarray {
         int n = arr.length;
         int sum = 0;
         arraysum.MaximumSubarray(arr, n, sum);
-        
+        import java.util.Arrays;
     }
 }
