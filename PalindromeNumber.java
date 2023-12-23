@@ -1,5 +1,6 @@
 public class PalindromeNumber{
 public static void main(String[] args){
+    string x = new string ("aabb");
 function solution(x) {
 if (x===x.split("").reverse().join("")) { // проверяет палиндром или нет
     return true 
