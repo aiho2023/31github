@@ -1,15 +1,16 @@
 public class PalindromeNumber{
 public static void main(String[] args){
-    string x = new string ("aabb");
-function solution(x) {
-if (x===x.split("").reverse().join("")) { // проверяет палиндром или нет
-    return true 
+    function solution(str){
+    let chars = new Set(str),
+        wasOdd = false;
+
+    for(let char of chars)
+        if(str.match(new RegExp(char, 'gi')).length % 2)
+            if(wasOdd)
+                return false;
+            else
+                wasOdd = true;
+    return true;
 }
-for (var i = 0; i < x.length; i++) {
-    //тут думаю надо поменять местами элементы и проверять заново,но как не знаю (
-} } 
-
-
-console.log(solution("aabb")) 
 }
 }
