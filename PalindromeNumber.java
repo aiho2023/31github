@@ -8,9 +8,9 @@ if number_str[i] != number_str[-i - 1]:
 is_palindrome = False
 break
 if is_palindrome:
-print("Число является палиндромом.")
-else:
-print("Число не является палиндромом.")
+System.out.println("Число является палиндромом.")
+else
+System.out.println("Число не является палиндромом.")
 }
 }
 }
