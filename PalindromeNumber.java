@@ -1,10 +1,14 @@
 public class PalindromeNumber{
 public static void main(String[] args){
-var X = 121;
-if (X.toString().split("").reverse().join("") == X.toString()) {
-    System.out.println("Это палиндром");
-} else {
-    System.out.println("Это не палиндром");
+function solution(x) {
+if (x===x.split("").reverse().join("")) { // проверяет палиндром или нет
+    return true 
 }
+for (var i = 0; i < x.length; i++) {
+    //тут думаю надо поменять местами элементы и проверять заново,но как не знаю (
+} } 
+
+
+console.log(solution("aabb")) 
 }
 }
