@@ -1,7 +1,7 @@
 public class PalindromeNumber {
     public static void main(String[] args) {
-        System.out.println(isPalindrom(10101)); // => true
-        System.out.println(isPalindrom(10)); // => false
+        System.out.println(isPalindrom(101)); // => true
+        System.out.println(isPalindrom(11911)); // => false
     }
 
     public static boolean isPalindrom(int number) {
