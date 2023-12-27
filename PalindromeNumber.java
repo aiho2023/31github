@@ -4,10 +4,10 @@ public class PalindromeNumber {
         System.out.println(isPalindrom(aabb)); // => false
     }
 
-    public static boolean isPalindrom(int number) {
+    public static boolean isPalindrom(int string) {
         StringBuilder builder = new StringBuilder();
-        String str = builder.append(number).reverse().toString();
-        int reversedNumber = Integer.parseInt(str);
-        return number == reversedNumber;
+        String str = builder.append(string).reverse().toString();
+        int reversedString = Integer.parseInt(str);
+        return string == reversedString;
     }
 }
