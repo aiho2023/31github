@@ -1,17 +1,14 @@
-function palindrome(str) {
-  str = str
-    .toString()
-    .toLowerCase()
-    .replace(/\s|[,.!?"/-]/g, "");
-  return str === str.split("").reverse().join("");
+function isPalindrome(str) {
+str = str.toLowerCase().replace(/[^а-яa-z]/g, "");
+var reversedStr = "";
+for (var i = str.length - 1; i >= 0; i--) {
+reversedStr += str.charAt(i);
+}
+return str === reversedStr;
 }
 
-function superPalindrome(str) {
-  const halfOfLength = Math.floor(str.length / 2);
-  str = str.toLowerCase().replace(/\s|[,.!?"/-`':;]/g, "");
-  for (let i = 0; i < halfOfLength; i++)
-    if (str[i] !== str[str.length - i - 1]) {
-      return false;
-    }
-  return true;
-}
+var inputString = "А роза упала на лапу Азора";
+var result = isPalindrome(inputString);
+console.log(result);
+
+
