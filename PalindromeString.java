@@ -1,4 +1,4 @@
-unction palindrome(str) {
+function palindrome(str) {
   str = str
     .toString()
     .toLowerCase()
@@ -15,11 +15,3 @@ function superPalindrome(str) {
     }
   return true;
 }
-
-console.log(palindrome("шалаш"));
-console.log(palindrome("Вася"));
-console.log(palindrome("А муза рада музе без ума да разума"));
-console.log(
-  palindrome('"Пустите!" - Летит супу миска Максиму. - "Пустите, летит суп!"')
-);
-console.log(palindrome(123321));
