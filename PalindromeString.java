@@ -1,16 +1,14 @@
-function isPalindrome(str) {
-str = str.toLowerCase().replace(/[^а-яa-z]/g, "");
-var reversedStr = "";
-for (var i = str.length - 1; i >= 0; i--) {
-reversedStr += str.charAt(i);
+class PalindromeString {
+    static boolean isPalindrome(String word) {
+        int length = word.length();
+        // Двигаемся с обоих концов слова к серидине
+        for (int i = 0; i < (n / 2); i++) {
+            // Сравниваем символы попарно
+            if (word.charAt(i) != word.charAt(n - i - 1)) {
+                // Если найдено несоответствие - слово не палиндром
+                return false;
+            }
+        }
+        return true;
+    }
 }
-return str === reversedStr;
-}
-public class PalindromeString {
-public static void main(String[] args) {
-var inputString = "А роза упала на лапу Азора";
-var result = isPalindrome(inputString);
-console.log(result);
-}
-}
-
