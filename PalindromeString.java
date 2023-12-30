@@ -6,7 +6,7 @@ reversedStr += str.charAt(i);
 }
 return str === reversedStr;
 }
-public class PalindromeNumber {
+public class PalindromeString {
 public static void main(String[] args) {
 var inputString = "А роза упала на лапу Азора";
 var result = isPalindrome(inputString);
