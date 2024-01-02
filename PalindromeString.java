@@ -7,7 +7,7 @@ public class PalindromeString{
                          "IAMAIHO"));
       
       System.out.print("Возвращаемое значение: ");
-      System.out.println(Str.replaceAll("Добро",
+      System.out.println(Str.replaceAll("на",
                          "сайт посвященный программированию!"));
    }
 }
