@@ -4,7 +4,7 @@ public class PalindromeString{
 
       System.out.print("Возвращаемое значение: ");
       System.out.println(Str.replaceAll("(.*)Добро пожаловать на ProgLang.su(.*)",
-                         "IAMGROOT"));
+                         "IAMAIHO"));
       
       System.out.print("Возвращаемое значение: ");
       System.out.println(Str.replaceAll("ProgLang.su",
