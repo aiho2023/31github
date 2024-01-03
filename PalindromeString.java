@@ -13,5 +13,8 @@ public class PalindromeString{
        StringBuffer buffer = new StringBuffer("Добро пожаловать на ProgLang.su");
        buffer.reverse();
        System.out.println(buffer);
+
+      StringBuffer strBuffer = new StringBuffer(str);
+      System.out.println(strBuffer.toString());
    }
 }
