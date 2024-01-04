@@ -26,11 +26,17 @@ public class PalindromeString{
       System.out.println(strBuffer1.toString());
 
       StringBuffer strBuffer3 = new StringBuffer("sEmanueles");
-      strBuffer3.append(" Macron");
       int startIndex = 1;
       int endIndex = 8;
       char[] buffer3 = new char[endIndex-startIndex];
       strBuffer3.getChars(startIndex, endIndex, buffer3, 0);
       System.out.println(buffer3);
+
+      StringBuffer strBuffer4 = new StringBuffer("Consiste");
+      strBuffer4.delete(0,3);
+      System.out.println(strBuffer4.toString()); //
+         
+      strBuffer4.deleteCharAt(7);
+      System.out.println(strBuffer4.toString());
    }
 }
