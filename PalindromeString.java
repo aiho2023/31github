@@ -45,5 +45,9 @@ public class PalindromeString{
          
       String str2 = strBuffer5.substring(0, 6); // обрезка строки с 0 по 6 символ 
       System.out.println(str2);
+
+      StringBuffer strBuffer6 = new StringBuffer("I'm groot!");
+      strBuffer6.replace(3,9,"Aiho");
+      System.out.println(strBuffer6.toString()); //hello java!
    }
 }
