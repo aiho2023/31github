@@ -21,7 +21,7 @@ public class PalindromeString{
       char c = strBuffer1.charAt(2); // 
       System.out.println(c); // r
       strBuffer1.setCharAt(2, 'c');
-      strBuffer.insert(3, 'r');
+      strBuffer1.insert(3, 'r');
       // strBuffer1.append("n");
       System.out.println(strBuffer1.toString());
 
