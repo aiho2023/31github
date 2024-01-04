@@ -19,11 +19,17 @@ public class PalindromeString{
 
       StringBuffer strBuffer1 = new StringBuffer("Maron");
       char c = strBuffer1.charAt(2); // 
-      System.out.println(c);
+      System.out.println(c); // r
       strBuffer1.setCharAt(2, 'c');
       strBuffer1.setCharAt(3, 'r');
       strBuffer1.setCharAt(4, 'o');
       strBuffer1.append("n");
       System.out.println(strBuffer1.toString());
+
+      int startIndex = 1;
+      int endIndex = 4;
+      char[] buffer = new char[endIndex-startIndex];
+      strBuffer1.getChars(startIndex, endIndex, buffer, 0);
+      System.out.println(buffer);
    }
 }
