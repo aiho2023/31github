@@ -17,10 +17,10 @@ public class PalindromeString{
       StringBuffer strBuffer = new StringBuffer("Добро пожаловать на ProgLang.su");
       System.out.println(Str.toString());
 
-      StringBuffer strBuffer1 = new StringBuffer("Java");
+      StringBuffer strBuffer1 = new StringBuffer("Maron");
       char c = strBuffer1.charAt(2); // 
       System.out.println(c);
-      strBuffer1.setCharAt(1, 'c');
+      strBuffer1.setCharAt(2, 'ca');
       System.out.println(strBuffer1.toString());
    }
 }
