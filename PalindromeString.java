@@ -26,10 +26,11 @@ public class PalindromeString{
       strBuffer1.append("n");
       System.out.println(strBuffer1.toString());
 
+      StringBuffer strBuffer2 = new StringBuffer("world");
       int startIndex = 1;
       int endIndex = 4;
       char[] buffer = new char[endIndex-startIndex];
-      strBuffer1.getChars(startIndex, endIndex, buffer, 0);
+      strBuffer2.getChars(startIndex, endIndex, buffer, 0);
       System.out.println(buffer);
    }
 }
