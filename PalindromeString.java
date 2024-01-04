@@ -18,9 +18,9 @@ public class PalindromeString{
       System.out.println(Str.toString());
 
       StringBuffer strBuffer1 = new StringBuffer("Java");
-      char c = strBuffer1.charAt(0); // 
+      char c = strBuffer1.charAt(2); // 
       System.out.println(c);
-      strBuffer1.setCharAt(0, 'c');
+      strBuffer1.setCharAt(1, 'c');
       System.out.println(strBuffer1.toString());
    }
 }
