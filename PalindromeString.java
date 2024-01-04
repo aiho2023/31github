@@ -10,7 +10,7 @@ public class PalindromeString{
       System.out.println(Str.replaceAll("ProgLang.su",
                          "сайт посвященный программированию!"));
 
-       StringBuffer buffer = new StringBuffer("Lalalala");
+       StringBuffer buffer = new StringBuffer("А роза упала на лапу Азора");
        buffer.reverse();
        System.out.println(buffer);
 
