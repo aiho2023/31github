@@ -47,7 +47,7 @@ public class PalindromeString{
       System.out.println(str2);
 
       StringBuffer strBuffer6 = new StringBuffer("I'm groot!");
-      strBuffer6.replace(3,9,"Aiho");
+      strBuffer6.replace(4,9,"Aiho");
       System.out.println(strBuffer6.toString()); //hello java!
    }
 }
