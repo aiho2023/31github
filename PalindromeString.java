@@ -40,10 +40,10 @@ public class PalindromeString{
       System.out.println(strBuffer4.toString());
 
       StringBuffer strBuffer5 = new StringBuffer("Aika Babaika!");
-      String str1 = strBuffer5.substring(4); // обрезка строки с 6 символа до конца
+      String str1 = strBuffer5.substring(6); // обрезка строки с 6 символа до конца
       System.out.println(str1); //java!
          
-      String str2 = strBuffer5.substring(0, 6); // обрезка строки с 3 по 9 символ 
+      String str2 = strBuffer5.substring(0, 6); // обрезка строки с 0 по 6 символ 
       System.out.println(str2);
    }
 }
