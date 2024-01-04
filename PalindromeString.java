@@ -36,7 +36,7 @@ public class PalindromeString{
       strBuffer4.delete(0,3);
       System.out.println(strBuffer4.toString()); //
          
-      strBuffer4.deleteCharAt(5);
+      strBuffer4.deleteCharAt(4);
       System.out.println(strBuffer4.toString());
    }
 }
