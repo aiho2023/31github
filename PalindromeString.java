@@ -26,11 +26,11 @@ public class PalindromeString{
       strBuffer1.append("n");
       System.out.println(strBuffer1.toString());
 
-      StringBuffer strBuffer2 = new StringBuffer("world");
-      int startIndex = 1;
-      int endIndex = 4;
-      char[] buffer2 = new char[endIndex-startIndex];
-      strBuffer2.getChars(startIndex, endIndex, buffer2, 0);
-      System.out.println(buffer2);
+      StringBuffer strBuffer3 = new StringBuffer("sEmanueles");
+      int startIndex = 0;
+      int endIndex = 8;
+      char[] buffer3 = new char[endIndex-startIndex];
+      strBuffer2.getChars(startIndex, endIndex, buffer3, 0);
+      System.out.println(buffer3);
    }
 }
