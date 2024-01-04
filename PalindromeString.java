@@ -27,7 +27,7 @@ public class PalindromeString{
       System.out.println(strBuffer1.toString());
 
       StringBuffer strBuffer3 = new StringBuffer("sEmanueles");
-      int startIndex = 0;
+      int startIndex = 1;
       int endIndex = 8;
       char[] buffer3 = new char[endIndex-startIndex];
       strBuffer3.getChars(startIndex, endIndex, buffer3, 0);
