@@ -20,7 +20,7 @@ public class PalindromeString{
       StringBuffer strBuffer1 = new StringBuffer("Maron");
       char c = strBuffer1.charAt(2); // 
       System.out.println(c);
-      strBuffer1.setCharAt(2, 'ca');
+      strBuffer1.setCharAt(2, 'c');
       System.out.println(strBuffer1.toString());
    }
 }
