@@ -22,7 +22,7 @@ public class PalindromeString{
       System.out.println(c); // r
       strBuffer1.setCharAt(2, 'c');
       strBuffer1.insert(3, 'r');
-      // strBuffer1.append("n");
+      strBuffer1.append(" E");
       System.out.println(strBuffer1.toString());
 
       StringBuffer strBuffer3 = new StringBuffer("sEmanueles");
@@ -30,6 +30,7 @@ public class PalindromeString{
       int endIndex = 8;
       char[] buffer3 = new char[endIndex-startIndex];
       strBuffer3.getChars(startIndex, endIndex, buffer3, 0);
+      strBuffer3.append(" Macron");
       System.out.println(buffer3);
    }
 }
