@@ -30,7 +30,7 @@ public class PalindromeString{
       int startIndex = 0;
       int endIndex = 8;
       char[] buffer3 = new char[endIndex-startIndex];
-      strBuffer2.getChars(startIndex, endIndex, buffer3, 0);
+      strBuffer3.getChars(startIndex, endIndex, buffer3, 0);
       System.out.println(buffer3);
    }
 }
