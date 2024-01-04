@@ -16,5 +16,11 @@ public class PalindromeString{
 
       StringBuffer strBuffer = new StringBuffer("Добро пожаловать на ProgLang.su");
       System.out.println(Str.toString());
+
+      StringBuffer strBuffer1 = new StringBuffer("Java");
+      char c = strBuffer1.charAt(0); // 
+      System.out.println(c);
+      strBuffer1.setCharAt(0, 'c');
+      System.out.println(strBuffer1.toString());
    }
 }
