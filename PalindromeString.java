@@ -29,8 +29,8 @@ public class PalindromeString{
       StringBuffer strBuffer2 = new StringBuffer("world");
       int startIndex = 1;
       int endIndex = 4;
-      char[] buffer = new char[endIndex-startIndex];
-      strBuffer2.getChars(startIndex, endIndex, buffer, 0);
-      System.out.println(buffer);
+      char[] buffer2 = new char[endIndex-startIndex];
+      strBuffer2.getChars(startIndex, endIndex, buffer2, 0);
+      System.out.println(buffer2);
    }
 }
