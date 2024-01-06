@@ -49,5 +49,21 @@ public class PalindromeString{
       StringBuffer strBuffer6 = new StringBuffer("I'm groot!");
       strBuffer6.replace(4,9,"Aiho");
       System.out.println(strBuffer6.toString()); //hello java!
+
+      
+      String Str1 = "Добро пожаловать на ProgLang.su";
+      String Str2 = Str1;
+      String Str3 = new String("Сайт для изучения программирования");
+      String Str4 = new String("ДОБРО ПОЖАЛОВАТЬ НА PROGLANG.SU");
+      boolean retVal;
+
+      retVal = Str1.equalsIgnoreCase(Str2);
+      System.out.println("Строка Str1 равна строке Str2? Ответ: " + retVal );
+
+      retVal = Str1.equalsIgnoreCase(Str3);
+      System.out.println("Строка Str1 равна строке Str3? Ответ: " + retVal );
+      
+      retVal = Str1.equalsIgnoreCase(Str4);
+      System.out.println("Строка Str1 равна строке Str4? Ответ: " + retVal );
    }
 }
