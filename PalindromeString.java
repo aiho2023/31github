@@ -68,6 +68,8 @@ public class PalindromeString{
 
       String Str5 = "Tenet";
       StringBuffer strBuffer7 = new StringBuffer("Tenet");
-      
+      buffer7.reverse();
+       System.out.println(buffer7);
+
    }
 }
