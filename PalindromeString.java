@@ -67,8 +67,8 @@ public class PalindromeString{
       System.out.println("Строка Str1 равна строке Str4? Ответ: " + retVal );
 
       StringBuffer strBuffer = new StringBuffer("Tenet");
-      strbuffer.reverse();
-      system.out.println(strbuffer);
+      strBuffer.reverse();
+      system.out.println(strBuffer);
 
    }
 }
