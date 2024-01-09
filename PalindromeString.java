@@ -66,9 +66,9 @@ public class PalindromeString{
       retVal = Str1.equalsIgnoreCase(Str4);
       System.out.println("Строка Str1 равна строке Str4? Ответ: " + retVal );
 
-      StringBuffer strBuffer = new StringBuffer("Tenet");
-      buffer.reverse();
-      system.out.println(buffer);
+      StringBuffer strBuffer8 = new StringBuffer("Tenet");
+      buffer8.reverse();
+      system.out.println(buffer8);
 
    }
 }
